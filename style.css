@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Open Sans';
+}
+
+#header {
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 2rem;
+  display: flex;
+
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.container {
+  margin-left: 10.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.0rem;
+}
+
+.menu{
+  margin-left: 1.60rem;
+  margin-top: 1.3rem;
+}
+
+.titulo-g1{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  color: #A80001;
+  margin-right: 1.0rem;
+}
+
+.titulo-ge{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  color: #06AA48;
+  margin-right: 1.0rem;
+}
+
+.titulo-cartola{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FF7F00;
+  margin-right: 1.0rem;
+}
+
+.titulo-tech{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  color: #666666;
+  margin-right: 1.0rem;
+}
+
+.titulo-receitas{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  color: #A5147D;
+  margin-right: 1.0rem;
+}
+
+.section{
+  margin-left: 10.5rem;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.h1 {
+  margin-bottom: 1.5rem;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 58px;
+  letter-spacing: -0.028em;
+  color: #CD150B;
+  
+}
+
+#sub-titulo-moraes{
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.068em;
+  text-align: left;
+  color: #CD150B;
+}
+
+#revoga {
+  display: flex;
+  margin-top: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.itamaraty {
+  font-family: 'Open Sans';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  text-align: left;
+  color: #CD150B;
+  
+}
+
+.subtitulo {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  text-align: left;
+  color: #CD150B;
+}
+
+#segundadiv{
+  margin-left: 1.3rem;
+}
