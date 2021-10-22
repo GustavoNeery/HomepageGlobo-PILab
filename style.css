@@ -20,13 +20,19 @@ main {
   padding: 20px;
 }
 
-.g1 {
+.g1{
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
   color: #A80001;
-  margin-right: 1.0rem;
+  margin-right: 1.0rem; 
+  transition: .2s ease-out;
+  filter: none;
+}
+
+.g1:hover{
+  filter: brightness(5);
 }
 
 .ge {
@@ -36,6 +42,12 @@ main {
   text-decoration: none;
   color: #06AA48;
   margin-right: 1.0rem;
+  transition: .2s ease-out;
+  filter: none;
+}
+
+.ge:hover{
+  filter: brightness(5);
 }
 
 .cartola {
@@ -45,6 +57,12 @@ main {
   text-decoration: none;
   color: #FF7F00;
   margin-right: 1.0rem;
+  transition: .2s ease-out;
+  filter: none;
+}
+
+.cartola:hover{
+  filter: brightness(2);
 }
 
 .tech {
@@ -54,6 +72,12 @@ main {
   text-decoration: none;
   color: #666666;
   margin-right: 1.0rem;
+  transition: .2s ease-out;
+  filter: none;
+}
+
+.tech:hover{
+  filter: brightness(2);
 }
 
 .receitas {
@@ -63,6 +87,12 @@ main {
   text-decoration: none;
   color: #A5147D;
   margin-right: 1.0rem;
+  transition: .2s ease-out;
+  filter: none;
+}
+
+.receitas:hover{
+  filter: brightness(5);
 }
 
 
@@ -80,7 +110,15 @@ main {
   letter-spacing: -0.028em;
   color: #CD150B;
   margin-bottom: 1.5px;
+  text-decoration: none;
+  transition: .2s ease-out;
+  filter: none;
 }
+
+#h1:hover{
+  filter: brightness(5);
+}
+
 
 #subtitle {
   font-family: 'Open Sans';
@@ -110,6 +148,12 @@ main {
   letter-spacing: -0.045em;
   text-align: left;
   color: #CD150B;
+  transition: .2s ease-out;
+  filter: none;
+}
+
+.paragraph-img:hover {
+  filter: brightness(5);
 }
 
 .subtitle-young {
@@ -150,6 +194,8 @@ main {
   margin-top: 0.2rem;
   color: black;
   margin-right: 25px;
+  transition: .2s ease-out;
+  filter: none;
 }
 
 #corona {
@@ -179,6 +225,12 @@ main {
   letter-spacing: -0.045em;
   color: #06AA48;
   padding-bottom: 30px;
+  transition: .2s ease-out;
+  filter: none;
+}
+
+#img-paragraph1:hover{
+  filter: brightness(2);
 }
 
 #img-paragraph2 {
@@ -190,6 +242,12 @@ main {
   line-height: 25px;
   letter-spacing: -0.045em;
   color: #06AA48;
+  transition: .2s ease-out;
+  filter: none;
+}
+
+#img-paragraph2:hover{
+  filter: brightness(2);
 }
 
 #img-paragraph3 {
@@ -197,10 +255,16 @@ main {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
-  font-size: 21.5px;
+  font-size: 21.5px;  
   line-height: 25px;
   letter-spacing: -0.045em;
   color: #06AA48;
+  transition: .2s ease-out;
+  filter: none;
+}
+
+#img-paragraph3:hover{
+  filter: brightness(2);
 }
 
 #text {
@@ -242,6 +306,12 @@ main {
   line-height: 25px;
   letter-spacing: -0.045em;
   color: #FF8203;
+  transition: .2s ease-out;
+  filter: none;
+}
+
+.title-maju:hover{
+  filter: brightness(0.3);
 }
 
 #third-div2 {
@@ -263,5 +333,11 @@ main {
   line-height: 25px;
   letter-spacing: -0.045em;
   color: #FF8203;
+  transition: .2s ease-out;
+  filter: none;
+}
+
+.title-documental:hover {
+  filter:brightness(0.3)
 }
 
