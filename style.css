@@ -4,28 +4,23 @@ body {
   font-family: 'Open Sans';
 }
 
-#header {
-  border-bottom: 1px solid #e4e4e4;
-  margin-bottom: 2rem;
+header {
   display: flex;
-
-  top: 0;
-  left: 0;
-  z-index: 100;
+  padding-left: 80px;
+  padding-top: 21px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E6E6E6;
 }
 
-.container {
-  margin-left: 10.5rem;
-  margin-right: 1.5rem;
-  margin-bottom: 1.0rem;
+main {
+  display: flex;
 }
 
-.menu{
-  margin-left: 1.60rem;
-  margin-top: 1.3rem;
+.menu {
+  padding: 20px;
 }
 
-.titulo-g1{
+.g1 {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
@@ -34,7 +29,7 @@ body {
   margin-right: 1.0rem;
 }
 
-.titulo-ge{
+.ge {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
@@ -43,7 +38,7 @@ body {
   margin-right: 1.0rem;
 }
 
-.titulo-cartola{
+.cartola {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
@@ -52,7 +47,7 @@ body {
   margin-right: 1.0rem;
 }
 
-.titulo-tech{
+.tech {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
@@ -61,7 +56,7 @@ body {
   margin-right: 1.0rem;
 }
 
-.titulo-receitas{
+.receitas {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
@@ -70,13 +65,13 @@ body {
   margin-right: 1.0rem;
 }
 
-.section{
-  margin-left: 10.5rem;
-  border-bottom: 1px solid #e4e4e4;
+
+#first-section {
+  width: 663.5px;
+  padding-left: 80px;  
 }
 
-.h1 {
-  margin-bottom: 1.5rem;
+#h1 {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
@@ -84,27 +79,28 @@ body {
   line-height: 58px;
   letter-spacing: -0.028em;
   color: #CD150B;
-  
+  margin-bottom: 1.5px;
 }
 
-#sub-titulo-moraes{
+#subtitle {
   font-family: 'Open Sans';
-  font-size: 18px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
+  font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.068em;
-  text-align: left;
   color: #CD150B;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E6E6E6;
 }
 
-#revoga {
+#section-on-first {
   display: flex;
-  margin-top: 1.3rem;
-  margin-bottom: 1.5rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E6E6E6;
 }
 
-.itamaraty {
+.paragraph-img {
   font-family: 'Open Sans';
   font-size: 22px;
   font-style: normal;
@@ -113,10 +109,9 @@ body {
   letter-spacing: -0.045em;
   text-align: left;
   color: #CD150B;
-  
 }
 
-.subtitulo {
+.subtitle-young {
   font-family: 'Open Sans';
   font-size: 16px;
   font-style: normal;
@@ -125,8 +120,87 @@ body {
   letter-spacing: -0.048em;
   text-align: left;
   color: #CD150B;
+  margin-right: 18px;
 }
 
-#segundadiv{
-  margin-left: 1.3rem;
+#section-last {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.economia-corona-mundo {
+  color: #CD150B;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.068em;
+}
+
+.last-paragraph {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  margin-top: 0.2rem;
+  color: black;
+  margin-right: 25px;
+}
+
+#corona {
+  padding-right: 15px;
+}
+
+#economia {
+  padding-right: 12px;
+}
+
+
+#second-section {
+  border-left: 1px solid #E6E6E6;
+  padding: 60px;
+  margin-left: 35px;
+  padding-top: 45px;
+}
+
+.img-paragraph {
+  margin-top: 1px;
+  margin-bottom: 30px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #06AA48;
+}
+
+#img-paragraph2 {
+  margin-top: 1px;
+  margin-bottom: 7px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #06AA48;
+}
+
+#text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #06AA48;
+}
+
+#third-section {
+  padding: 100px;
+  background-color: rgb(204, 185, 185);
 }
