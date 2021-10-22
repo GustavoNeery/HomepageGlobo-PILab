@@ -67,8 +67,8 @@ main {
 
 
 #first-section {
-  width: 663.5px;
   padding-left: 80px;  
+  margin-right: 0.001px;
 }
 
 #h1 {
@@ -101,6 +101,7 @@ main {
 }
 
 .paragraph-img {
+  text-decoration: none;
   font-family: 'Open Sans';
   font-size: 22px;
   font-style: normal;
@@ -139,6 +140,7 @@ main {
 }
 
 .last-paragraph {
+  text-decoration: none;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
@@ -151,24 +153,36 @@ main {
 }
 
 #corona {
-  padding-right: 15px;
+  padding-right: 40px;
 }
 
 #economia {
-  padding-right: 12px;
+  padding-right: 40px;
 }
 
 
 #second-section {
   border-left: 1px solid #E6E6E6;
-  padding: 60px;
+  padding: 30px;
   margin-left: 35px;
+  padding-right: 2px;
   padding-top: 45px;
 }
 
-.img-paragraph {
-  margin-top: 1px;
-  margin-bottom: 30px;
+#img-paragraph1 {
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #06AA48;
+  padding-bottom: 30px;
+}
+
+#img-paragraph2 {
+  text-decoration: none;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
@@ -178,9 +192,8 @@ main {
   color: #06AA48;
 }
 
-#img-paragraph2 {
-  margin-top: 1px;
-  margin-bottom: 7px;
+#img-paragraph3 {
+  text-decoration: none;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: bold;
@@ -191,6 +204,7 @@ main {
 }
 
 #text {
+  text-decoration: none;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: normal;
@@ -200,7 +214,54 @@ main {
   color: #06AA48;
 }
 
-#third-section {
-  padding: 100px;
-  background-color: rgb(204, 185, 185);
+#div1 {
+  margin-bottom: 30px;
 }
+
+#div2 {
+  margin-bottom: 30px;
+}
+
+#div3 {
+  margin-top: 10px;
+}
+
+#third-section {
+  border-left: 1px solid #E6E6E6;
+  padding: 30px;
+  margin-left: 35px;
+  padding-top: 45px;
+}
+
+.title-maju{
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #FF8203;
+}
+
+#third-div2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #FF8203;
+}
+
+.title-documental {
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #FF8203;
+}
+
